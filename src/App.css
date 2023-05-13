@@ -1,0 +1,53 @@
+.square{
+  height: 15rem;
+  width: 15rem;
+}
+
+.btn{
+  width: 15rem;
+  height: 3rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.btn1{
+  width: 3rem;
+  height: 15rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloc{
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(19, 189, 19);
+  position: relative;
+}
+
+.mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+}
+.btn:hover{
+  background-color: rgba(20, 212, 212, 0.838);
+  color: white;
+}
+
+.btn1:hover{
+  background-color: rgba(20, 212, 212, 0.838);
+  color: white;
+}
+
